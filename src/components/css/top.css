@@ -1,0 +1,32 @@
+.logo {
+    width: 50px;
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 100000;
+}
+
+.rightop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+    flex: 3;
+}
+
+.leftop {
+    padding: 5px 0px;
+    align-items: center;
+    flex: 2;
+}
+
+.colored {
+    background-color: #f2e0ce;
+}
+
+.active {
+    color : white;
+}

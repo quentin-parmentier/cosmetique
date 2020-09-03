@@ -1,0 +1,18 @@
+.divLogoDiff {
+    display: flex;
+    justify-content: center;
+}
+
+.logoDiff {
+    width: 200px;
+}
+
+.difference {
+    flex: 1;
+}
+
+.textDiff {
+    text-align: center;
+    padding: 0px 20px;
+}
+

@@ -1,0 +1,16 @@
+.formProducts {
+    margin: 20px 10%;
+}
+
+.input {
+    margin-right: 16px;
+}
+
+.h2product {
+    margin: 30px 10% 0px 10%;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+}

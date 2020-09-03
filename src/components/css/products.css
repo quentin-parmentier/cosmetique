@@ -1,0 +1,10 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 5%;
+}
+
+.searchicon {
+    width: 25px;
+}
