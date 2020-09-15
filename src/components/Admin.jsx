@@ -3,6 +3,7 @@ import {TopBar} from './TopBar';
 import {Products} from './Products';
 import {SetProducts} from './SetProducts';
 import {Differences} from './Differences';
+import {WatchProduct} from './WatchProduct';
 
 import logo from '../logo.svg';
 
@@ -31,6 +32,9 @@ export function Admin() {
 
         case "SetProduit":
           return(<SetProducts product={focusedProduct} setScreen={setScreen} />)
+
+        case "WatchProduct":
+          return(<WatchProduct product={focusedProduct} setScreen={setScreen} />)
 
         default:
           return(<Differences setScreen={setScreen} />)

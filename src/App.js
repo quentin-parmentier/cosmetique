@@ -14,7 +14,6 @@ function App() {
   return (
     <Router>
       <div className="main">
-
         <Switch>
           <Route path="/shop">
             <Shop />

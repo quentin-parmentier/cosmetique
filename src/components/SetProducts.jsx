@@ -18,8 +18,10 @@ export function SetProducts(props) {
         <div className="setproducts">
             <h2 className="h2product"> Modifier le produit : {product.name}</h2>
             <form className="formProducts"> 
+                {/* On vient modifier uniquement la valeur dont s'occupe l'input */}
                 <TextField onChange={(e) => setProduct({...productControll, name:e.target.value})} required className={classes.textField} variant="outlined" id="name" label="Name" value={productControll.name} margin="normal" />
                 <TextField onChange={(e) => setProduct({...productControll, price:e.target.value})} className={classes.textField} label="Prix" id="prix" type="number" value={productControll.price} InputProps={{endAdornment: <InputAdornment position="end">€</InputAdornment> }} variant="outlined" margin="normal" />
+                <TextField onChange={(e) => setProduct({...productControll, volume:e.target.value})} className={classes.textField} label="Volume" id="volume" type="number" value={productControll.price} InputProps={{endAdornment: <InputAdornment position="end">ml</InputAdornment> }} variant="outlined" margin="normal" />
                 <TextField onChange={(e) => setProduct({...productControll, composition:e.target.value})} className={classes.textField} variant="outlined" id="composition" multiline rows={2} label="Composition" value={productControll.composition} fullWidth margin="normal" />
                 <TextField onChange={(e) => setProduct({...productControll, description:e.target.value})} className={classes.textField} variant="outlined" id="description" multiline rows={4} label="Description" value={productControll.description} fullWidth margin="normal" />
                 <Button variant="contained" className={classes.btnprd} onClick={() => enregistrer()}> Modifier </Button>
@@ -31,6 +33,7 @@ export function SetProducts(props) {
     function enregistrer(){
         //Ajax update
 
+        //On revient sur la liste des produits
         setScreen(null,"Produits")
     }
 }

@@ -4,7 +4,8 @@ import '../css/diffItem.css'
 
 export function DiffItem(props) {
 
-    const {logo} = props
+    const images = require.context("../../img/svg", true);
+    let logo = images('./' + props.logo);
 
     return (
       <div className="difference">

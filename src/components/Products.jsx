@@ -17,49 +17,57 @@ export function Products(props) {
     
     useEffect(function(){
         //fake getting data
-        setProducts( [{  id: 1
-                        ,name:"Masque couille"
-                        ,price:"12"
-                        ,img:"devantFlyer.jpg"
-                        ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
-                        ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
-                    },{   id: 2
-                        ,name:"Masque Bite"
-                        ,price:"12"
-                        ,img:"devantFlyer.jpg"
-                        ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
-                        ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
-                    },{   id: 3
-                        ,name:"Masque Oreille"
-                        ,price:"12"
-                        ,img:"devantFlyer.jpg"
-                        ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
-                        ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
-                    },{   id: 4
-                        ,name:"Masque nez"
-                        ,price:"12"
-                        ,img:"devantFlyer.jpg"
-                        ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
-                        ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
-                    },{   id: 5
-                        ,name:"Masque ViSaGe"
-                        ,price:"12"
-                        ,img:"devantFlyer.jpg"
-                        ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
-                        ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
-                    },{   id: 6
-                        ,name:"Masque Pénis"
-                        ,price:"12"
-                        ,img:"devantFlyer.jpg"
-                        ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
-                        ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
-                    },{   id: 7
-                        ,name:"Masque Suce"
-                        ,price:"12"
-                        ,img:"devantFlyer.jpg"
-                        ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
-                        ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
-                    }])
+        setProducts( [
+            {    id: 1
+                ,name:"Masque couille"
+                ,price:"12"
+                ,img:"devantFlyer.jpg"
+                ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
+                ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
+                ,volume:15
+            },{  id: 2
+                ,name:"Masque Bite"
+                ,price:"12"
+                ,img:"devantFlyer.jpg"
+                ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
+                ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
+                ,volume:15
+            },{  id: 3
+                ,name:"Masque Oreille"
+                ,price:"12"
+                ,img:"devantFlyer.jpg"
+                ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
+                ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
+                ,volume:15
+            },{  id: 4
+                ,name:"Masque nez"
+                ,price:"12"
+                ,img:"devantFlyer.jpg"
+                ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
+                ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
+                ,volume:15
+            },{  id: 5
+                ,name:"Masque ViSaGe"
+                ,price:"12"
+                ,img:"devantFlyer.jpg"
+                ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
+                ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
+                ,volume:15
+            },{  id: 6
+                ,name:"Masque Pénis"
+                ,price:"12"
+                ,img:"devantFlyer.jpg"
+                ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
+                ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
+                ,volume:15
+            },{  id: 7
+                ,name:"Masque Suce"
+                ,price:"12"
+                ,img:"devantFlyer.jpg"
+                ,description:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas temporibus numquam labore nemo dolorem omnis porro animi qui corrupti accusantium, soluta doloremque et assumenda doloribus aperiam libero. Vitae, soluta."
+                ,composition:"Lorem, ipsum, dolor, sit, amet, consectetur"
+                ,volume:15
+            }])
     },[])
         
     return (

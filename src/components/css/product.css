@@ -33,7 +33,7 @@
     bottom: 100%;
     position: relative;
     transform: rotateY(-90deg);
-    transition-duration: 0.25s;
+    transition-duration: 0.20s;
     transition-delay: 0.24s;
 }
 

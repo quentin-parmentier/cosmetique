@@ -12,10 +12,10 @@ export function Product(props) {
     const classes = useStyles();
 
     return (
-        <div className="product" onClick={() => setScreen(product,"Produit")}>
+        <div className="product" onClick={() => setScreen(product,"WatchProduct")}>
             <div className="rectoProduct">
                 <div className="divImgProduct">
-                    <img alt={"phto"+product.name} className="imgProduct" src={img} />
+                    <img alt={"photo"+product.name} className="imgProduct" src={img} />
                 </div>
                 <div className="divBottomProduct">
                     <div className="presentation">
