@@ -1,6 +1,7 @@
 import React from 'react';
 import {ArrowBack} from '@material-ui/icons';
 import { Button,Select, MenuItem } from '@material-ui/core';
+import {Differences} from './Differences';
 
 
 import './css/watchproduct.css';
@@ -11,6 +12,15 @@ export function WatchProduct(props) {
     const images = require.context("../img/products", true);
     let productImg = images('./' + product.img);
     const [qte, setQte] = React.useState(1);
+
+    const differences = [
+        {text:""
+        ,logo:"logo.svg"},
+        {text:""
+        ,logo:"logo.svg"},
+        {text:""
+        ,logo:"logo.svg"}
+    ]
 
     return (
         <div id="product">
@@ -46,6 +56,10 @@ export function WatchProduct(props) {
                     <div id="addtocartproduit"><Button fullWidth={true} variant="contained" className="addTocart">Ajouter au panier</Button></div>
                 </div>
             </div>
+            <div id="reassurance">
+                <Differences differences={differences} size={150}/>
+            </div>
+            {/*<div id="ventecomplementaire"></div>*/}
         </div>
     )
 

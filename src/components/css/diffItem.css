@@ -3,10 +3,6 @@
     justify-content: center;
 }
 
-.logoDiff {
-    width: 200px;
-}
-
 .difference {
     flex: 1;
 }

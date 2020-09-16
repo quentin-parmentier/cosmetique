@@ -24,7 +24,7 @@ export function OnePage(props) {
         <div>
             <TopBar logo={logo} logopath="#accueil" menu={topMenu} effectFunction={scrollingTopBar} activeScreen={activeScreen} setActiveScreen={setActiveScreen} />
             <Accueil />
-            <Differences differences={differences}/>
+            <Differences differences={differences} size={200}/>
             <Newsletter />
         </div>
     );

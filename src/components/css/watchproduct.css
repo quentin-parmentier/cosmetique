@@ -81,3 +81,9 @@
 .addTocart:hover {
     background-color: #537fe4!important;
 }
+
+#reassurance {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+}
