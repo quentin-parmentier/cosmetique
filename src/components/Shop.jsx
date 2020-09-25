@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {Products} from './Products';
 import {TopBar} from './TopBar';
+import {Footer} from './Footer';
 import {WatchProduct} from './WatchProduct';
 
 import logo from '../logo.svg';
@@ -14,6 +15,7 @@ export function Shop(props) {
       <div>
           <TopBar logo={logo} logopath="/" menu={shopmenu} effectFunction={colorBar} activeScreen={activeScreen} setActiveScreen={setActiveScreen} />
           {renderComponent()}
+          <Footer />
       </div>
     );
 

@@ -25,26 +25,28 @@ export function WatchProduct(props) {
     ]
 
     return (
-        <div id="product">
-            <div onClick={(e) => goBack(e)} id="back">  <ArrowBack />  <p id="backtxt">Retour</p></div>
-            <div id="divproduit">
-                <div id="leftproduit">
-                    <img alt={"photo"+product.name} className="imgwatchProduct" src={productImg} />
-                </div>
-                <div id="rightproduit">
-                    <div id="nomproduit">{product.name} - {product.volume} ml</div>
-                    <div id="prixproduit">{product.price} €</div>
-                    <div id="descriptionproduit">{product.description}</div>
-                    <div id="compoproduit"><span className="medium">Ingrédient :</span> {product.composition}</div>
-                    <div id="quantiteproduit">
-                        <NumberSelect 
-                            tabrange= {rangeqte}
-                            textrender= "Quantité : "
-                            defaultValue= {qte}
-                            setValue={setQte}
-                        />
+        <div>
+            <div id="product">
+                <div onClick={(e) => goBack(e)} id="back">  <ArrowBack />  <p id="backtxt">Retour</p></div>
+                <div id="divproduit">
+                    <div id="leftproduit">
+                        <img alt={"photo"+product.name} className="imgwatchProduct" src={productImg} />
                     </div>
-                    <div id="addtocartproduit"><Button fullWidth={true} variant="contained" className="addTocart">Ajouter au panier</Button></div>
+                    <div id="rightproduit">
+                        <div id="nomproduit">{product.name} - {product.volume} ml</div>
+                        <div id="prixproduit">{product.price} €</div>
+                        <div id="descriptionproduit">{product.description}</div>
+                        <div id="compoproduit"><span className="medium">Ingrédient :</span> {product.composition}</div>
+                        <div id="quantiteproduit">
+                            <NumberSelect 
+                                tabrange= {rangeqte}
+                                textrender= "Quantité : "
+                                defaultValue= {qte}
+                                setValue={setQte}
+                            />
+                        </div>
+                        <div id="addtocartproduit"><Button fullWidth={true} variant="contained" className="addTocart">Ajouter au panier</Button></div>
+                    </div>
                 </div>
             </div>
             <div id="reassurance">
