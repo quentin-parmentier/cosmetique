@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Accueil} from './Accueil';
 import {Differences} from './Differences';
 import {TopBar} from './TopBar';
+import {Footer} from './Footer';
 import {Newsletter} from './Newsletter';
 
 import './css/onepage.css'
@@ -26,6 +27,7 @@ export function OnePage(props) {
             <Accueil />
             <Differences differences={differences} size={200}/>
             <Newsletter />
+            <Footer />
         </div>
     );
 

@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerpart{
+    flex: 1;
+    padding: 10px 15px;
+    min-width: 170px;
+}
+
+#entreprise {
+    flex: 2;
+    background: burlywood;
+}
+
+#lienuser{
+    background: bisque;
+}
+#lienentreprise{
+    background: cornflowerblue;
+}
+#contact{
+    background: chocolate;
+}
+
+#logofooter {
+    text-align: center;
+}
+
+#logoentreprise {
+    width: 90px;
+}
+
+.titlefooter {
+    padding: 15px 0px;
+}
+
+.listefooter {
+    padding: 5px 0px;
+}
+
+.socialicons {
+    justify-content: space-evenly;
+}
+
+.iconfooter {
+    padding: 10px 0px;
+}
+
+.p3{
+    padding: 3px;
+}

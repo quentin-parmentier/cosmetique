@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.flex {
+	display: flex;
+}
+
 @font-face {
 	font-family: "roboto";
 	font-weight: bolder;
